@@ -1,4 +1,4 @@
-;;; pcustom.el -- a portable custom.el  -*- lexical-binding: t -*-
+;;; pcustom.el -- load custom  -*- lexical-binding: t -*-
 
 ;; Copyright (C) 1999 Free Software Foundation, Inc.
 ;; Copyright (C) 1999 Mikio Nakajima <minakaji@osaka.email.ne.jp>
@@ -26,7 +26,22 @@
 
 ;;; Commentary:
 
+;; This compatibility library was written in 1999.  At that time it
+;; determined whether "new custom" was available, and if it instead
+;; found "old custom", then it loaded `tinycustom'.
+
+;; I don't know in what Emacs release "new custom" was introduced,
+;; but I am guessing it was either 21.1 (released in 2001) or 20.1
+;; (released in 1997).
+
+;; Approximately two decades have passes since then, so nowadays
+;; this library require `custom' unconditionally.  It also provides
+;; the feature `pcustom', which three packages (mhc, mu-cite, and
+;; w3m) still depend on.
+
 ;;; Code:
+
+(require 'custom)
 
 (require 'product)
 (product-provide (provide 'pcustom) (require 'apel-ver))
