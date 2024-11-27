@@ -2,7 +2,7 @@
 
 ;; Copyright (C) 1996-2022  Free Software Foundation, Inc.
 
-;; Package-Requires: ((emacs "24.5") (apel "0") (flim "0"))
+;; Package-Requires: ((emacs "24.5") (flim "0"))
 
 ;; This file is part of APEL (A Portable Emacs Library).
 
