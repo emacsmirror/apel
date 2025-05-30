@@ -1,5 +1,4 @@
-;;; APEL-CFG --- user customizations for APEL installation. -*-Emacs-Lisp-*-
-
+;;; APEL-CFG --- user customizations for APEL installation. -*- mode: emacs-lisp; lexical-binding: nil -*-
 ;;; Commentary:
 
 ;; Use this file to override variables defined in APEL-MK.

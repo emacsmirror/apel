@@ -1,4 +1,4 @@
-;;; APEL-MK --- installer for APEL. -*-Emacs-Lisp-*-
+;;; APEL-MK --- installer for APEL. -*- mode: emacs-lisp; lexical-binding: nil -*-
 
 ;;; Commentary:
 

@@ -1,4 +1,4 @@
-;;; EMU-ELS --- list of EMU modules to install. -*-Emacs-Lisp-*-
+;;; EMU-ELS --- list of EMU modules to install. -*- mode: emacs-lisp; lexical-binding: nil -*-
 
 ;;; Commentary:
 
