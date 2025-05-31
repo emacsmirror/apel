@@ -48,7 +48,7 @@ For example, (poly-funcall \\='(car number-to-string) \\='(100)) returns
 (defvar filename-limit-length 21 "Limit size of file-name.")
 
 (defvar filename-replacement-alist
-  '(((?\  ?\t) . "_")
+  '(((?\s ?\t) . "_")
     ((?! ?\" ?# ?$ ?% ?& ?' ?\( ?\) ?* ?/
 	 ?: ?\; ?< ?> ?? ?\[ ?\\ ?\] ?` ?{ ?| ?}) . "_")
     (filename-control-p . ""))
